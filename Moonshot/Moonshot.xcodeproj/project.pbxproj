@@ -12,6 +12,8 @@
 		B422F74227A75F77005FD730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B422F74127A75F77005FD730 /* Assets.xcassets */; };
 		B422F74527A75F77005FD730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B422F74427A75F77005FD730 /* Preview Assets.xcassets */; };
 		B489F16327A7D74000EA5C01 /* ScrollViewss.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16227A7D74000EA5C01 /* ScrollViewss.swift */; };
+		B489F16527A7DEB700EA5C01 /* NavLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16427A7DEB700EA5C01 /* NavLinking.swift */; };
+		B489F16727A7EB6000EA5C01 /* CodableHeirachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		B422F74127A75F77005FD730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B422F74427A75F77005FD730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B489F16227A7D74000EA5C01 /* ScrollViewss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewss.swift; sourceTree = "<group>"; };
+		B489F16427A7DEB700EA5C01 /* NavLinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinking.swift; sourceTree = "<group>"; };
+		B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableHeirachy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 				B422F73D27A75F66005FD730 /* MoonshotApp.swift */,
 				B422F73F27A75F66005FD730 /* ContentView.swift */,
 				B489F16227A7D74000EA5C01 /* ScrollViewss.swift */,
+				B489F16427A7DEB700EA5C01 /* NavLinking.swift */,
+				B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */,
 				B422F74127A75F77005FD730 /* Assets.xcassets */,
 				B422F74327A75F77005FD730 /* Preview Content */,
 			);
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B489F16727A7EB6000EA5C01 /* CodableHeirachy.swift in Sources */,
+				B489F16527A7DEB700EA5C01 /* NavLinking.swift in Sources */,
 				B422F74027A75F66005FD730 /* ContentView.swift in Sources */,
 				B422F73E27A75F66005FD730 /* MoonshotApp.swift in Sources */,
 				B489F16327A7D74000EA5C01 /* ScrollViewss.swift in Sources */,
