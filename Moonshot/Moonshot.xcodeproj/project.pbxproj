@@ -15,6 +15,9 @@
 		B489F16527A7DEB700EA5C01 /* NavLinking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16427A7DEB700EA5C01 /* NavLinking.swift */; };
 		B489F16727A7EB6000EA5C01 /* CodableHeirachy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */; };
 		B489F16927A7F3A900EA5C01 /* ScrollingGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16827A7F3A900EA5C01 /* ScrollingGrid.swift */; };
+		B489F16C27A7F5D100EA5C01 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16B27A7F5D000EA5C01 /* Astronaut.swift */; };
+		B489F17027A7FF8100EA5C01 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = B489F16F27A7FF8100EA5C01 /* astronauts.json */; };
+		B489F17227A7FF9600EA5C01 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B489F17127A7FF9600EA5C01 /* missions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		B489F16427A7DEB700EA5C01 /* NavLinking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavLinking.swift; sourceTree = "<group>"; };
 		B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableHeirachy.swift; sourceTree = "<group>"; };
 		B489F16827A7F3A900EA5C01 /* ScrollingGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingGrid.swift; sourceTree = "<group>"; };
+		B489F16B27A7F5D000EA5C01 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
+		B489F16F27A7FF8100EA5C01 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
+		B489F17127A7FF9600EA5C01 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,8 @@
 				B489F16427A7DEB700EA5C01 /* NavLinking.swift */,
 				B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */,
 				B489F16827A7F3A900EA5C01 /* ScrollingGrid.swift */,
+				B489F16F27A7FF8100EA5C01 /* astronauts.json */,
+				B489F17127A7FF9600EA5C01 /* missions.json */,
 				B422F74127A75F77005FD730 /* Assets.xcassets */,
 				B422F74327A75F77005FD730 /* Preview Content */,
 			);
@@ -83,6 +91,7 @@
 		B489F16A27A7F4F500EA5C01 /* Moonshots */ = {
 			isa = PBXGroup;
 			children = (
+				B489F16B27A7F5D000EA5C01 /* Astronaut.swift */,
 			);
 			path = Moonshots;
 			sourceTree = "<group>";
@@ -145,7 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B489F17027A7FF8100EA5C01 /* astronauts.json in Resources */,
 				B422F74527A75F77005FD730 /* Preview Assets.xcassets in Resources */,
+				B489F17227A7FF9600EA5C01 /* missions.json in Resources */,
 				B422F74227A75F77005FD730 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +171,7 @@
 				B489F16727A7EB6000EA5C01 /* CodableHeirachy.swift in Sources */,
 				B489F16527A7DEB700EA5C01 /* NavLinking.swift in Sources */,
 				B422F74027A75F66005FD730 /* ContentView.swift in Sources */,
+				B489F16C27A7F5D100EA5C01 /* Astronaut.swift in Sources */,
 				B489F16927A7F3A900EA5C01 /* ScrollingGrid.swift in Sources */,
 				B422F73E27A75F66005FD730 /* MoonshotApp.swift in Sources */,
 				B489F16327A7D74000EA5C01 /* ScrollViewss.swift in Sources */,
