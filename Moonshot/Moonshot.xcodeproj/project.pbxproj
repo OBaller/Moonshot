@@ -20,6 +20,7 @@
 		B489F17227A7FF9600EA5C01 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B489F17127A7FF9600EA5C01 /* missions.json */; };
 		B489F17427A82ACB00EA5C01 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17327A82ACB00EA5C01 /* Bundle-Decodable.swift */; };
 		B489F17627A8311500EA5C01 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17527A8311500EA5C01 /* Mission.swift */; };
+		B489F17927A9DA1500EA5C01 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17827A9DA1400EA5C01 /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		B489F17127A7FF9600EA5C01 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		B489F17327A82ACB00EA5C01 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
 		B489F17527A8311500EA5C01 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		B489F17827A9DA1400EA5C01 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				B489F16A27A7F4F500EA5C01 /* Moonshots */,
 				B422F73D27A75F66005FD730 /* MoonshotApp.swift */,
 				B422F73F27A75F66005FD730 /* ContentView.swift */,
+				B489F17827A9DA1400EA5C01 /* Color-Theme.swift */,
 				B489F16227A7D74000EA5C01 /* ScrollViewss.swift */,
 				B489F16427A7DEB700EA5C01 /* NavLinking.swift */,
 				B489F16627A7EB6000EA5C01 /* CodableHeirachy.swift */,
@@ -183,6 +186,7 @@
 				B489F17627A8311500EA5C01 /* Mission.swift in Sources */,
 				B422F73E27A75F66005FD730 /* MoonshotApp.swift in Sources */,
 				B489F16327A7D74000EA5C01 /* ScrollViewss.swift in Sources */,
+				B489F17927A9DA1500EA5C01 /* Color-Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
