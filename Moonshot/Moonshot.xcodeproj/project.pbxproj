@@ -18,6 +18,8 @@
 		B489F16C27A7F5D100EA5C01 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F16B27A7F5D000EA5C01 /* Astronaut.swift */; };
 		B489F17027A7FF8100EA5C01 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = B489F16F27A7FF8100EA5C01 /* astronauts.json */; };
 		B489F17227A7FF9600EA5C01 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = B489F17127A7FF9600EA5C01 /* missions.json */; };
+		B489F17427A82ACB00EA5C01 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17327A82ACB00EA5C01 /* Bundle-Decodable.swift */; };
+		B489F17627A8311500EA5C01 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17527A8311500EA5C01 /* Mission.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		B489F16B27A7F5D000EA5C01 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		B489F16F27A7FF8100EA5C01 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		B489F17127A7FF9600EA5C01 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
+		B489F17327A82ACB00EA5C01 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		B489F17527A8311500EA5C01 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +96,8 @@
 			isa = PBXGroup;
 			children = (
 				B489F16B27A7F5D000EA5C01 /* Astronaut.swift */,
+				B489F17527A8311500EA5C01 /* Mission.swift */,
+				B489F17327A82ACB00EA5C01 /* Bundle-Decodable.swift */,
 			);
 			path = Moonshots;
 			sourceTree = "<group>";
@@ -171,8 +177,10 @@
 				B489F16727A7EB6000EA5C01 /* CodableHeirachy.swift in Sources */,
 				B489F16527A7DEB700EA5C01 /* NavLinking.swift in Sources */,
 				B422F74027A75F66005FD730 /* ContentView.swift in Sources */,
+				B489F17427A82ACB00EA5C01 /* Bundle-Decodable.swift in Sources */,
 				B489F16C27A7F5D100EA5C01 /* Astronaut.swift in Sources */,
 				B489F16927A7F3A900EA5C01 /* ScrollingGrid.swift in Sources */,
+				B489F17627A8311500EA5C01 /* Mission.swift in Sources */,
 				B422F73E27A75F66005FD730 /* MoonshotApp.swift in Sources */,
 				B489F16327A7D74000EA5C01 /* ScrollViewss.swift in Sources */,
 			);
