@@ -22,6 +22,7 @@
 		B489F17627A8311500EA5C01 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17527A8311500EA5C01 /* Mission.swift */; };
 		B489F17927A9DA1500EA5C01 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17827A9DA1400EA5C01 /* Color-Theme.swift */; };
 		B489F17B27A9F32F00EA5C01 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17A27A9F32E00EA5C01 /* MissionView.swift */; };
+		B489F17D27AA8CF400EA5C01 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B489F17C27AA8CF300EA5C01 /* AstronautView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		B489F17527A8311500EA5C01 /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
 		B489F17827A9DA1400EA5C01 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		B489F17A27A9F32E00EA5C01 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		B489F17C27AA8CF300EA5C01 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 				B422F73D27A75F66005FD730 /* MoonshotApp.swift */,
 				B422F73F27A75F66005FD730 /* ContentView.swift */,
 				B489F17A27A9F32E00EA5C01 /* MissionView.swift */,
+				B489F17C27AA8CF300EA5C01 /* AstronautView.swift */,
 				B489F17827A9DA1400EA5C01 /* Color-Theme.swift */,
 				B489F16227A7D74000EA5C01 /* ScrollViewss.swift */,
 				B489F16427A7DEB700EA5C01 /* NavLinking.swift */,
@@ -190,6 +193,7 @@
 				B489F17B27A9F32F00EA5C01 /* MissionView.swift in Sources */,
 				B422F73E27A75F66005FD730 /* MoonshotApp.swift in Sources */,
 				B489F16327A7D74000EA5C01 /* ScrollViewss.swift in Sources */,
+				B489F17D27AA8CF400EA5C01 /* AstronautView.swift in Sources */,
 				B489F17927A9DA1500EA5C01 /* Color-Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
