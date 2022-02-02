@@ -88,6 +88,13 @@ struct MissionView: View {
         .navigationTitle(mission.displayName)
         .navigationBarTitleDisplayMode(.inline)
         .background(.darkBackground)
+        .toolbar {
+            Button {
+                
+            } label: {
+                Text("Switch Layout")
+            }
+        }
     }
     
     init(mission: Mission, astronauts: [String: Astronaut]) {
